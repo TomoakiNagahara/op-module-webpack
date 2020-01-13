@@ -1,0 +1,67 @@
+/**
+ * app-skeleton-webpack:/css/app/other.css
+ *
+ * @creation  2018-04-17
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .m0 {
+	margin: 0;
+}
+
+body.body .p0 {
+	padding: 0;
+}
+
+body.body .i0 {
+	text-indent: 0;
+}
+
+body.body .indent {
+	padding-left: 2em;
+}
+
+body.body hr {
+	margin: 0.5em 0;
+}
+
+/* Where is this use? */
+body.body section.important {
+	padding: 0.5em 1em;
+	border: 1px solid  #F0F0E0;
+	border-left: 0.5em solid #F9E46A;
+	border-radius: 0.25em;
+	background-color:  #FAF8EA;
+}
+
+body.body .text.left {
+	border: 1px solid black;
+	text-align: left;
+}
+
+body.body .text.center {
+	text-align: center;
+}
+
+body.body .text.right {
+	text-align: right;
+}
+
+body.body .float.left {
+	float: left;
+}
+
+body.body .float.center {
+	float: center;
+}
+
+body.body .float.right {
+	float: right;
+}
+
+body.body [onclick] {
+	cursor: pointer;
+}

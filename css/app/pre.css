@@ -1,0 +1,15 @@
+/**
+ * app-skeleton-webpack:/css/app/pre.css
+ *
+ * @creation  2018-10-31
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body pre {
+	margin:  0;
+	padding: 0;
+	border-width: 0;
+}

@@ -1,0 +1,16 @@
+<?php
+/**
+ * app-skeleton-webpack:/css/app/footer.php
+ *
+ * @creation  2019-03-12
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+footer{
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+}

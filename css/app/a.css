@@ -1,0 +1,17 @@
+/**
+ * app-skeleton-webpack:/css/app/a.css
+ *
+ * @creation  2018-04-12
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body a {
+	color: #3170C3;
+}
+
+body.body a:hover {
+	text-decoration: underline;
+}

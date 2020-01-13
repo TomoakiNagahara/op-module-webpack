@@ -1,0 +1,70 @@
+/**
+ * app-skeleton-webpack:/css/app/pager.php
+ *
+ * @creation  2018-06-04
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .OP.pager {
+	_border: 1px solid black;
+	text-align: center;
+}
+
+body.body .OP.pager span.page {
+	padding: 0.1em;
+}
+
+body.body .OP.pager span.page a,
+body.body .OP.pager span.page span.current {
+	_margin:  0;
+	_padding: 0.1em 0.2em;
+}
+
+/** Forward button.
+ *
+ */
+body.body .OP.pager span.forward:before {
+	content:"<";
+}
+
+/** Backward button.
+ *
+ */
+body.body .OP.pager span.backward:after {
+	content:">";
+}
+
+/** Omit mark.
+ *
+ */
+body.body .OP.pager span.omit:after {
+	content:"…";
+}
+
+/** Clickable page number block.
+ *
+ */
+body.body .OP.pager span.page span.number {
+	border: 1px solid #d0d0d0;
+	padding: 0.25em 0;
+	width: 2em;
+	display: inline-block;
+}
+
+/** A tag
+ *
+ */
+body.body .OP.pager a {
+	text-decoration: none;
+}
+
+/** Current page.
+ *
+ */
+body.body .OP.pager span.page span.current {
+	border: 1px solid #c0c0c0;
+	background-color: #f0f0f0;
+}

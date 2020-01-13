@@ -1,0 +1,57 @@
+/**
+ * app-skeleton-webpack:/css/op/args.css
+ *
+ * @creation  2017-07-31
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+span.args > span.arg:not(:last-child):after {
+	margin-right: 0.25em;
+	content: ',';
+}
+
+span.args > span.arg > span.quote:before,
+span.args > span.arg > span.quote:after {
+	content: '"';
+}
+
+span.args > span.arg > span.boolean.true {
+	color: blue;
+}
+
+span.args > span.arg > span.null,
+span.args > span.arg > span.boolean.false {
+	color: red;
+}
+
+span.args > span.arg > span.number {
+	_font-weight: bold;
+	font-style: italic;
+}
+
+span.args > span.arg > span.integer {
+
+}
+
+span.args > span.arg > span.double {
+
+}
+
+span.args > span.arg > span.array {
+	color: purple;
+}
+
+span.args > span.arg > span.object {
+	color: green;
+}
+
+span.args > span.arg > span.string > span.meta {
+	color: #c0c0c0;
+}
+
+span.args > span.arg > span.string > span.meta.space {
+	text-decoration: underline;
+}

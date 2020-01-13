@@ -1,0 +1,22 @@
+/**
+ * app-skeleton-webpack:/css/app/font-color.css
+ *
+ * @creation  2018-04-12
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .blue,
+body.body .success {
+	color: blue;
+}
+
+body.body .red,
+body.body .fail,
+body.body .failed,
+body.body .failure,
+body.body .error {
+	color: red;
+}

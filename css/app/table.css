@@ -1,0 +1,41 @@
+/**
+ * app-skeleton-webpack:/css/app/table.css
+ *
+ * @creation  2017-01-11
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body table,
+body.body tr,
+body.body th, 
+body.body td {
+	_border: 1px solid black;
+}
+
+body.body th.left, 
+body.body td.left {
+	text-align: left;
+}
+
+body.body th.right, 
+body.body td.right {
+	text-align: right;
+}
+
+body.body th.center, 
+body.body td.center {
+	text-align: center;
+}
+
+body.body th.top, 
+body.body td.top {
+	vertical-align: top;
+}
+
+body.body th.bottom, 
+body.body td.bottom {
+	vertical-align: bottom;
+}

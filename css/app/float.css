@@ -1,0 +1,17 @@
+/**
+ * app-skeleton-webpack:/css/app/float.css
+ *
+ * @creation  2019-04-03
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+.float.left {
+	float: left;
+}
+
+.float.right {
+	float: right;
+}

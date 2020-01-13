@@ -1,0 +1,79 @@
+/**
+ * app-skeleton-webpack:/css/app/form.css
+ *
+ * @creation  2018-05-16
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body form.OP input:not([type="radio"]):not([type="checkbox"]):not([type="file"]),
+body.body form.OP textarea,
+body.body form.OP button,
+body.body form.OP submit,
+body.body form.OP .button {
+	border:  1px solid #ccc;
+	margin:  0.1em 0;
+	padding: 0.2em 0.4em;
+}
+
+body.body form.OP input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+body.body form.OP textarea {
+	width: 16em;
+	font-size: inherit;
+
+	/** Anti iPhone auto zoom in.
+	 *  But, margin of input becomes abnormal.
+	 *
+	 * @see http://shiru-web.com/2017/05/03/01-36/
+	 *
+	font-size: 16px;
+	transform: scale(0.8);
+	*/
+}
+
+body.body form.OP input[type="date"] {
+	width: 10em;
+}
+
+body.body form.OP select,
+body.body form.OP option {
+	font-size: inherit;
+}
+
+body.body form.OP textarea {
+	height: 4.6em;
+}
+
+body.body form.OP select[multiple] option {
+	padding: 0.1em 0.2em;
+}
+
+body.body form.OP input[type="radio"],
+body.body form.OP input[type="checkbox"] {
+	margin-right: 0.25em;
+}
+
+body.body form.OP [readonly="readonly"] {
+	color: #888;
+	cursor: not-allowed;
+}
+
+body.body form.OP label {
+	margin-right: 0.5em;
+}
+
+body.body form.OP label.read-only,
+body.body form.OP input:read-only,
+body.body form.OP textarea:read-only {
+	color: #999;
+}
+
+body.body form.OP label.cursor.wait,
+body.body form.OP input.cursor.wait,
+body.body form.OP select.cursor.wait,
+body.body form.OP textarea.cursor.wait {
+	color: #999;
+	cursor: wait;
+}

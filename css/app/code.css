@@ -1,0 +1,24 @@
+/**
+ * app-skeleton-webpack:/css/app/code.css
+ *
+ * @creation  2018-04-12
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body code {
+	font-family: "Courier New", Consolas, monospace;
+	margin:  1em 0;
+	padding: 0.5em 1em;
+	border-radius: 0.2em;
+	border: 1px solid #F0F0F0;
+	background-color: #F6F6F6;
+	white-space: pre;
+}
+
+/* Separate to inline code */
+body.body pre > code {
+	display: block;
+}

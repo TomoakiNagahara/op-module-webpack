@@ -1,0 +1,76 @@
+/**
+ * app-skeleton-webpack:/css/app/markdown.css
+ *
+ * @creation  2018-10-31
+ * @version   1.0
+ * @package   app-skeleton-webpack
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .markdown table,
+body.body .markdown th,
+body.body .markdown td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: hsl( var(--root-hue), 80%, 40%) !important;
+}
+
+body.body .markdown table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+body.body .markdown th,
+body.body .markdown td {
+	padding: 0.2em 0.5em;
+}
+
+/*
+body.body .markdown {
+  counter-reset: chapter;
+}
+
+body.body .markdown h1{
+  counter-reset: sub-chapter;
+}
+
+body.body .markdown h2{
+  counter-reset: section;
+}
+
+body.body .markdown h3{
+  counter-reset: sub-section;
+}
+
+body.body .markdown h4{
+  counter-reset: sub-sub-section;
+}
+
+.markdown-preview.markdown-preview {
+  h1::before{
+    counter-increment: chapter;
+    content: counter(chapter) ". ";
+  }
+
+  h2::before{
+    counter-increment: sub-chapter;
+    content: counter(chapter) "." counter(sub-chapter) ". ";
+  }
+
+  h3::before{
+    counter-increment: section;
+    content: counter(chapter) "." counter(sub-chapter) "." counter(section) ". ";
+  }
+
+  h4::before{
+    counter-increment: sub-section;
+    content: counter(chapter) "." counter(sub-chapter) "." counter(section) "." counter(sub-section) ".";
+  }
+
+  h5::before{
+    counter-increment: sub-sub-section;
+    content: counter(chapter) "." counter(sub-chapter) "." counter(section) "." counter(sub-section) "." counter(sub-sub-section) ".";
+  }
+}
+*/
