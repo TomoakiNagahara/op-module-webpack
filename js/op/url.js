@@ -16,9 +16,10 @@ if(!$OP ){
 (function(){
 	/** Rebuild.
 	 *
-	 * @created  2019-04-26
+	 * @changed  2019-04-26  $OP.URL  --> $OP._URL
+	 * @undoed   2020-01-22  $OP._URL --> $OP.URL
 	 */
-	$OP._URL = {};
+	$OP.URL = {};
 })();
 
 //	...
@@ -54,14 +55,15 @@ if(!$OP ){
 	 *
 	 * <pre>
 	 * $OP.Meta('test', '/op/7/app/testcase/');
-	 * $OP.URL('test:/api'); --> /op/7/app/testcase/api/
+	 * $OP.URL.Convert('test:/api'); --> /op/7/app/testcase/api/
 	 * </pre>
 	 *
 	 * @created  2018-11-01
+	 * @changed  2020-01-22  $OP.URL() --> $OP.URL.Convert()
 	 * @param    string
 	 * @return   string
 	 */
-	$OP.URL = function(url){
+	$OP.URL.Convert = function(url){
 		//	...
 		var m = url.match(/^([_a-z0-9]+):\//);
 		if(!m ){
@@ -152,7 +154,7 @@ if(!$OP ){
 	};
 
 	//	...
-	$OP._URL.Query.Get = function(key, def){
+	$OP.URL.Query.Get = function(key, def){
 		//	...
 		var result = null;
 
@@ -170,7 +172,7 @@ if(!$OP ){
 	};
 
 	//	...
-	$OP._URL.Query.Set = function(key, val, save){
+	$OP.URL.Query.Set = function(key, val, save){
 		//	...
 		queries[key] = val;
 
