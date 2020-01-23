@@ -57,7 +57,7 @@ if( Env::isAdmin() ){
 	//	...
 	switch( $ext ){
 		case 'js':
-			echo "console.log('WebPack was successful. {$datetime}, {$layout}')\n";
+			echo "console.log('WebPack was successful. {$datetime}, {$layout}');\n";
 			break;
 		case 'css':
 			echo "/* WebPack was successful. {$datetime}, {$layout}') */\n";
