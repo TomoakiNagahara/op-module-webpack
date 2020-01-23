@@ -99,6 +99,13 @@ if(!$OP ){
 
 //	...
 (function(){
+
+	/** Init
+	 *
+	 * @created  2020-01-23
+	 */
+	$OP._URL = {};
+
 	//	...
 	$OP._URL.Protocol = function(){
 		return location.Protocol;
@@ -152,6 +159,12 @@ if(!$OP ){
 		//	...
 		return queries;
 	};
+
+	/** Init
+	 *
+	 * @created  2020-01-23
+	 */
+	$OP.URL.Query = {};
 
 	//	...
 	$OP.URL.Query.Get = function(key, def){
