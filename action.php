@@ -21,7 +21,10 @@ namespace OP;
 use function OP\ConvertPath;
 
 /* @var $ext    string */
+/* @var $layout string */
 
+//	For compatible.
+if(!$layout ){
 //	Get layout name.
 $layout = UNIT\App::Layout();
 
@@ -33,6 +36,7 @@ if( strpos($layout, '..') !== false ){
 
 //	Encode string.
 $layout = Encode($layout);
+}
 
 //	Switch work by extension.
 switch( $ext ){
