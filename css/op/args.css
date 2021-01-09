@@ -48,6 +48,10 @@ span.args > span.arg > span.object {
 	color: green;
 }
 
+span.args > span.arg > span.string {
+
+}
+
 span.args > span.arg > span.string > span.meta {
 	color: #c0c0c0;
 }
