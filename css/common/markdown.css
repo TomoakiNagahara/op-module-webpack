@@ -9,7 +9,7 @@
  */
 
 body.body .markdown {
-
+	margin: 0;
 }
 
 body.body .markdown table,

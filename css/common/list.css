@@ -10,7 +10,7 @@
 
 body.body ul,
 body.body ol {
-
+	margin-right: 0;
 }
 
 body.body li {

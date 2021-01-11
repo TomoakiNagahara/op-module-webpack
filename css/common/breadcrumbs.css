@@ -9,7 +9,7 @@
  */
 
 #head-area .breadcrumbs {
-
+	margin-right: 0;
 }
 
 #head-area .breadcrumbs > ol {
