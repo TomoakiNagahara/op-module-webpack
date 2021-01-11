@@ -1,6 +1,5 @@
 <?php
-/**
- * op-module-webpack:/css/common/action.php
+/** op-module-webpack-css-common:/css/common/action.php
  *
  * @created   2018-04-12
  * @version   1.0
