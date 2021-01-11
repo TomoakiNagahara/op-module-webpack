@@ -9,12 +9,13 @@
  */
 
 :root {
+	--root-hue:                   0;
+	--root-font-size:           1em;
 	--root-color-text:       #555;
 	--root-color-disabled:   #bbb;
 	--root-color-background: #fff;
 	--root-color-border:     #333;
-	--root-font-size:         9pt;
-	--root-hue:                 0;
+	--root-color-link:         #3170C3;
 }
 
 /** For dark mode.
@@ -26,5 +27,9 @@
 	:root {
 		--root-color-text:         #ddd;
 		--root-color-background:   #000;
+		--root-color-border:       #fff;
+		--root-color-link:         #47bd43;
+		--root-color-visited:      #f2f668;
+		--root-color-hover:        #0f0;
 	}
 }
