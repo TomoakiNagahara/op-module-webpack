@@ -9,9 +9,14 @@
  */
 
 body.body a {
-	color: #3170C3;
+	color: var(--root-color-link);
+}
+
+body.body a:visited {
+	color: var(--root-color-visited);
 }
 
 body.body a:hover {
-	text-decoration: underline;
+	color: var(--root-color-hover);
+	text-decoration: none;
 }
