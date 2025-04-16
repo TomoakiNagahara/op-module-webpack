@@ -12,3 +12,9 @@
  *
  */
 namespace OP;
+
+//	Does not match defined directory.
+OP()->Env()->MIME('text/plain');
+
+//	Error message.
+echo 'Has not specified extension.';
