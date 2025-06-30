@@ -14,7 +14,7 @@
 namespace OP;
 
 //	Does not match defined directory.
-OP()->Env()->MIME('text/plain');
+OP::MIME('text/plain');
 
 //	Error message.
-echo 'Has not specified extension.';
+echo 'No extension specified: JS / CSS';
