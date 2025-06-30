@@ -18,20 +18,20 @@ namespace OP;
 $extension = basename(__DIR__);
 
 //	Set MIME from extension.
-OP()->Env()->MIME($extension);
+OP::MIME($extension);
 
 //	Get Layout name.
-$layout = OP()->Request('layout') ?? OP()->Layout()->Name();
+$layout = OP::Request('layout') ?? OP::Layout()->Name();
 
 //	Set each layout default config.
-if( $path   = OP()->MetaPath("asset:/layout/{$layout}/config.php") ){
+if( $path   = OP::Path("asset:/layout/{$layout}/config.php") ){
 	$config = include( $path );
-	OP()->Config($layout, $config);
+	OP::Config($layout, $config);
 }
 
 //	Set directories.
-OP()->WebPack()->Auto("asset:/layout/{$layout}/{$extension}/");
-OP()->WebPack()->Auto('./');
+OP::WebPack()->Auto("asset:/layout/{$layout}/{$extension}/");
+OP::WebPack()->Auto('./');
 
 //	Output codes.
-OP()->WebPack()->Auto();
+OP::WebPack()->Auto();
