@@ -18,7 +18,7 @@ namespace OP;
 OP::Layout(false);
 
 //	Get "SmartURL" Arguments.
-$args = Unit('Router')->Args();
+$args = OP()->Unit()->Router()->Args();
 
 //	Generate file path.
 if(!$file = join('/', $args) ){
